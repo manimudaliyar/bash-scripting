@@ -12,7 +12,7 @@ To use a variable, we have to call it using '$'
 
 Example: $userName
 
-### Command Substitution in Bash
+## Command Substitution in Bash
 
 $(...) executes a command and substitutes it's output into a variable.
 
