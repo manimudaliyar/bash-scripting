@@ -11,3 +11,9 @@ Note that when creating a variable, there is no space between = and the value
 To use a variable, we have to call it using '$'
 
 Example: $userName
+
+### Command Substitution in Bash
+
+$(...) executes a command and substitutes it's output into a variable.
+
+Example: files=$(ls) - In this example the variable files contains the output of the command 'ls'
