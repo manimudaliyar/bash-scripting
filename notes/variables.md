@@ -2,9 +2,9 @@
 
 A variable is used to store a value to use later.
 
-<u>**Example:**</u> userName="Mani"
+**Example:** userName="Mani"
 
-<u>**Important rules:**</u>
+**Important rules:**
 
 There must be no spaces around =
 Variable names are case sensitive
@@ -14,14 +14,14 @@ Quotes are recommended for strings
 
 To use a variable, we have to call it using '$'
 
-<u>**Example:**</u> echo $userName
+**Example:** echo $userName
 Best practice: echo "$userName"
 
 ## Command Substitution in Bash
 
 $(...) executes a command and substitutes it's output into a variable.
 
-<u>**Example:**</u> files=$(ls) 
+**Example:** files=$(ls) 
 
 **In this example:**
 
@@ -29,11 +29,11 @@ The command ls is executed
 Its output is captured
 The output is stored in the variable files
 
-<u>**Usage:**</u>
+**Usage:**
 
 echo "$files"
 
-<u>**Important notes:**</u>
+**Important notes:**
 
 Command substitution stores text output, not files
 Output is subject to word splitting and newlines
