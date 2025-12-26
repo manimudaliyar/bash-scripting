@@ -31,7 +31,7 @@ Some operators have special meaning in Bash and must be escaped.
 
 expr 10 \* 2
 
-* is a wildcard and must be escaped using \.
+'*' is a wildcard and must be escaped using \.
 
 **Important notes**
 
